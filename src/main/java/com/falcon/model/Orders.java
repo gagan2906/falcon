@@ -9,6 +9,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "orders", catalog = "falcon")
 public class Orders {
+	//model done
 	private long id;
 	private long lenderId;
 	private long itemId;
